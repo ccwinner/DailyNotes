@@ -7,18 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0812929229E55CBA00B67F7A /* PlayPauseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0812929129E55CB900B67F7A /* PlayPauseButton.swift */; };
+		081BF20829D6BAC9007AC2AF /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BF20729D6BAC9007AC2AF /* ItemRow.swift */; };
+		081BF20F29D6D4FA007AC2AF /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BF20E29D6D4FA007AC2AF /* PlayerView.swift */; };
+		081F950F29E50C5D0014B83B /* PlaybackData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081F950E29E50C5D0014B83B /* PlaybackData.swift */; };
+		085026A529F4E232002D1425 /* PlaybackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085026A429F4E232002D1425 /* PlaybackModel.swift */; };
+		08648BC229C19400009134AA /* HomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08648BC129C19400009134AA /* HomeData.swift */; };
+		08648BC529C194DF009134AA /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08648BC429C194DF009134AA /* VideoView.swift */; };
+		08648BC729C194EA009134AA /* MessengerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08648BC629C194EA009134AA /* MessengerView.swift */; };
+		0887C43329EFE5870040E3CE /* MemCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0887C43229EFE5870040E3CE /* MemCacheManager.swift */; };
 		08EA5EC129BDD31E007751E8 /* SUIPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EA5EC029BDD31E007751E8 /* SUIPlaygroundApp.swift */; };
 		08EA5EC329BDD31E007751E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EA5EC229BDD31E007751E8 /* ContentView.swift */; };
 		08EA5EC529BDD31F007751E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08EA5EC429BDD31F007751E8 /* Assets.xcassets */; };
 		08EA5EC829BDD31F007751E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08EA5EC729BDD31F007751E8 /* Preview Assets.xcassets */; };
+		2DA7CBDFD0956615F76F233A /* libPods-SUIPlayground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C90CC8459167C49716D797E /* libPods-SUIPlayground.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0803920729EE430700F0A807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0812929129E55CB900B67F7A /* PlayPauseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayPauseButton.swift; sourceTree = "<group>"; };
+		081BF20729D6BAC9007AC2AF /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		081BF20E29D6D4FA007AC2AF /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		081F950E29E50C5D0014B83B /* PlaybackData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackData.swift; sourceTree = "<group>"; };
+		085026A429F4E232002D1425 /* PlaybackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackModel.swift; sourceTree = "<group>"; };
+		08648BC129C19400009134AA /* HomeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeData.swift; sourceTree = "<group>"; };
+		08648BC429C194DF009134AA /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		08648BC629C194EA009134AA /* MessengerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerView.swift; sourceTree = "<group>"; };
+		0887C43229EFE5870040E3CE /* MemCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemCacheManager.swift; sourceTree = "<group>"; };
 		08EA5EBD29BDD31E007751E8 /* SUIPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUIPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08EA5EC029BDD31E007751E8 /* SUIPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUIPlaygroundApp.swift; sourceTree = "<group>"; };
 		08EA5EC229BDD31E007751E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		08EA5EC429BDD31F007751E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08EA5EC729BDD31F007751E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C90CC8459167C49716D797E /* libPods-SUIPlayground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SUIPlayground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		200AD4D9C32B639F4B0BF194 /* Pods-SUIPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SUIPlayground.debug.xcconfig"; path = "Target Support Files/Pods-SUIPlayground/Pods-SUIPlayground.debug.xcconfig"; sourceTree = "<group>"; };
+		FBD10DAE3A906E947CB57ABB /* Pods-SUIPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SUIPlayground.release.xcconfig"; path = "Target Support Files/Pods-SUIPlayground/Pods-SUIPlayground.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +49,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DA7CBDFD0956615F76F233A /* libPods-SUIPlayground.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		081BF20C29D6BEB6007AC2AF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				08EA5EC229BDD31E007751E8 /* ContentView.swift */,
+				081BF20729D6BAC9007AC2AF /* ItemRow.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		081BF20D29D6BEC6007AC2AF /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				081BF20E29D6D4FA007AC2AF /* PlayerView.swift */,
+				08648BC429C194DF009134AA /* VideoView.swift */,
+				0812929129E55CB900B67F7A /* PlayPauseButton.swift */,
+				08648BC629C194EA009134AA /* MessengerView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		08648BC329C19408009134AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				08648BC129C19400009134AA /* HomeData.swift */,
+				081F950E29E50C5D0014B83B /* PlaybackData.swift */,
+				0887C43229EFE5870040E3CE /* MemCacheManager.swift */,
+				085026A429F4E232002D1425 /* PlaybackModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		08648BC829C194F3009134AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				081BF20C29D6BEB6007AC2AF /* Home */,
+				081BF20D29D6BEC6007AC2AF /* Detail */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		08EA5EB429BDD31E007751E8 = {
 			isa = PBXGroup;
 			children = (
 				08EA5EBF29BDD31E007751E8 /* SUIPlayground */,
 				08EA5EBE29BDD31E007751E8 /* Products */,
+				F26815CDF2062938D16FB729 /* Pods */,
+				BA51AA04BC5AFAEF4020540D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +117,10 @@
 		08EA5EBF29BDD31E007751E8 /* SUIPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				0803920729EE430700F0A807 /* Info.plist */,
 				08EA5EC029BDD31E007751E8 /* SUIPlaygroundApp.swift */,
-				08EA5EC229BDD31E007751E8 /* ContentView.swift */,
+				08648BC829C194F3009134AA /* View */,
+				08648BC329C19408009134AA /* Model */,
 				08EA5EC429BDD31F007751E8 /* Assets.xcassets */,
 				08EA5EC629BDD31F007751E8 /* Preview Content */,
 			);
@@ -67,6 +135,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BA51AA04BC5AFAEF4020540D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C90CC8459167C49716D797E /* libPods-SUIPlayground.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F26815CDF2062938D16FB729 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				200AD4D9C32B639F4B0BF194 /* Pods-SUIPlayground.debug.xcconfig */,
+				FBD10DAE3A906E947CB57ABB /* Pods-SUIPlayground.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +159,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08EA5ECB29BDD31F007751E8 /* Build configuration list for PBXNativeTarget "SUIPlayground" */;
 			buildPhases = (
+				2229A1214DDE6BAC0BC82B2B /* [CP] Check Pods Manifest.lock */,
 				08EA5EB929BDD31E007751E8 /* Sources */,
 				08EA5EBA29BDD31E007751E8 /* Frameworks */,
 				08EA5EBB29BDD31E007751E8 /* Resources */,
@@ -132,13 +218,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2229A1214DDE6BAC0BC82B2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SUIPlayground-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		08EA5EB929BDD31E007751E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08648BC529C194DF009134AA /* VideoView.swift in Sources */,
 				08EA5EC329BDD31E007751E8 /* ContentView.swift in Sources */,
+				081BF20F29D6D4FA007AC2AF /* PlayerView.swift in Sources */,
 				08EA5EC129BDD31E007751E8 /* SUIPlaygroundApp.swift in Sources */,
+				0887C43329EFE5870040E3CE /* MemCacheManager.swift in Sources */,
+				0812929229E55CBA00B67F7A /* PlayPauseButton.swift in Sources */,
+				08648BC229C19400009134AA /* HomeData.swift in Sources */,
+				081BF20829D6BAC9007AC2AF /* ItemRow.swift in Sources */,
+				081F950F29E50C5D0014B83B /* PlaybackData.swift in Sources */,
+				085026A529F4E232002D1425 /* PlaybackModel.swift in Sources */,
+				08648BC729C194EA009134AA /* MessengerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +381,7 @@
 		};
 		08EA5ECC29BDD31F007751E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200AD4D9C32B639F4B0BF194 /* Pods-SUIPlayground.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -270,11 +391,13 @@
 				DEVELOPMENT_TEAM = JTYWLXSK79;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SUIPlayground/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,6 +413,7 @@
 		};
 		08EA5ECD29BDD31F007751E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBD10DAE3A906E947CB57ABB /* Pods-SUIPlayground.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,11 +423,13 @@
 				DEVELOPMENT_TEAM = JTYWLXSK79;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SUIPlayground/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
